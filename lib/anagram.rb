@@ -1,3 +1,4 @@
+require pry
 class Anagram
   attr_accessor :word
   
@@ -19,6 +20,7 @@ class Anagram
       
     end
     anagrams
+    binding.pry
     
   end
 end
