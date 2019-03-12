@@ -17,10 +17,11 @@ class Anagram
       if original_word_letters.sort == other_word_letters.sort
         anagrams << word
       end
+      binding.pry
       
     end
     anagrams
-    binding.pry
+    
     
   end
 end
